@@ -178,7 +178,6 @@ library Counters {
     }
 }
 
-
 /**
  * @dev String operations.
  */
@@ -620,7 +619,6 @@ abstract contract ERC165 is IERC165 {
     }
 }
 
-
 /**
  * @dev Required interface of an ERC721 compliant contract.
  */
@@ -779,8 +777,6 @@ interface IERC721Metadata is IERC721 {
      */
     function tokenURI(uint256 tokenId) external view returns (string memory);
 }
-
-
 
 /**
  * @dev Implementation of https://eips.ethereum.org/EIPS/eip-721[ERC721] Non-Fungible Token Standard, including
